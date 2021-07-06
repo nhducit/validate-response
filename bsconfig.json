@@ -1,0 +1,34 @@
+{
+  "gentypeconfig": {
+    "language": "typescript",
+    "module": "es6",
+    "importPath": "relative",
+    "shims": {
+      "React": "ReactShim",
+      "ReactEvent": "ReactEvent",
+      "ReasonPervasives": "ReasonPervasives",
+      "ReasonReact": "ReactShim",
+      "Js": "Js"
+    },
+    "debug": {
+      "all": false
+    },
+    "exportInterfaces": false
+  },
+  "name": "admin",
+  "bsc-flags": ["-bs-super-errors"],
+  "reason": { "react-jsx": 3 },
+  "bs-dependencies": ["@glennsl/bs-json"],
+  "sources": [
+    {
+      "dir": "projects",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "refmt": 3
+}
